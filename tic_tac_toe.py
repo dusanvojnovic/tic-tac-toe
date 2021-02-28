@@ -16,7 +16,7 @@ def game():
     global board
     for i in range(10):
         os.system('cls')
-        print ("Welcome to the TicTacToe! Use your num keypad to play.")
+        print ("Welcome to the TicTacToe! Use your num keypad(1-9) to play.")
         print_board(board)
         
         choice = input(f"Player {play} it's your turn to play: ")
